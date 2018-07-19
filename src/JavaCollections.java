@@ -9,7 +9,7 @@ public class JavaCollections {
     {
         List<Integer>ob=new ArrayList<Integer>();
 
-        ob.add(6);///////2
+        ob.add(6);///////22
 
         ob.size();
         ob.get(0);
