@@ -8,7 +8,9 @@ public class JavaCollections {
     public static void ArrayListFunc()
     {
         List<Integer>ob=new ArrayList<Integer>();
+
         ob.add(6);///////2
+
         ob.size();
         ob.get(0);
         ob.isEmpty();
