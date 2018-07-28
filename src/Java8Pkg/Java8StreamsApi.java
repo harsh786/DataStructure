@@ -117,7 +117,7 @@ public Java8StreamsApi()
 		//lsNames.stream().sorted((x,y)->y.compareTo(x)).forEach(n->System.out.println(n));
 		List<String>ls=lsNames.stream().sorted((x,y)->y.compareTo(x)).collect(Collectors.toList()); 
 		//ls.forEach(n->System.out.println(n));
-/*	Map<String,Long>map=	lsNames.stream().collect(Collectors.groupingBy(x->x,Collectors.counting()));
+	Map<String,Long>map=	lsNames.stream().collect(Collectors.groupingBy(x->x,Collectors.counting()));
 	map.forEach((k,v)->System.out.println(k+"----"+v));
 	
 	map.entrySet().stream()
@@ -136,7 +136,7 @@ public Java8StreamsApi()
 	lsNames.stream().distinct(). collect(Collectors.toMap(x->x,y->y)).forEach((k,v)->System.out.println(k+"----"+v));
 	int nj=(int) lsNames.stream().distinct().collect(Collectors.summingInt(n1->n1.length()));
 	System.out.println("sum:"+nj);
-	System.out.println("printing ");*/
+	System.out.println("printing ");
 		
 		List<Person> persons =
 			    Arrays.asList(
