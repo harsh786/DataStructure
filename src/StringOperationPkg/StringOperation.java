@@ -113,7 +113,6 @@ class TernarySearchQuest {
 
 	public TernaryNode InsertNodeInernaryTree(TernaryNode root, String input, int postion) {
 		if (root == null) {
-
 			root = new TernaryNode(input.charAt(postion));
 			if (r == null) {
 				this.r = root;
@@ -389,14 +388,12 @@ class StringProblems {
 			}
 
 		}
-
 	}
 
 	public void subsetSum(int arr[],int cureentindex,int endindex,/*int ArrayTobePrinted[]*/ArrayList<Integer>ArrayTobePrinted,int ArrayTobePrintedlength, int currentsum,int targetsum)
 	{
 				if(currentsum==targetsum)
 				{
-					
 					for(int i=0;i<ArrayTobePrintedlength;i++)
 					{
 						//System.out.print(ArrayTobePrinted[i]);
@@ -424,6 +421,7 @@ class StringProblems {
             		  
             	  }
               }
+              Integer i=(int)"989".charAt(0);
           	//int arr[]=new int[]{1,2,3,4,5};
 	}
 }
@@ -456,10 +454,10 @@ public class StringOperation {
 		// "", 0);
 	}
 
-	public void PerformOperation() {
-		StringProblems ObjStringProblems = new StringProblems();
-		String array[][] = { { "we", "I" }, { "love", "like" }, { "program", "coding" } };
-		int row = array.length;
+	public  void PerformOperation() {
+//		StringProblems ObjStringProblems = new StringProblems();
+//		String array[][] = { { "we", "I" }, { "love", "like" }, { "program", "coding" } };
+//		int row = array.length;
 		String Output = "";
 	// char ch=	Output.toCharArray();
 		//ObjStringProblems.PrintSentenceFromTwoDArray(array, row, 0, Output);
@@ -470,11 +468,44 @@ public class StringOperation {
 	  // ObjTrieSearch.Insert("abc");
 	//	System.out.println(ObjTrieSearch.Search("abcde"));
 	 //  ObjTrieSearch.PrintAllTrie(ObjTrieSearch.StartNode, "");
-		int arraytobeprinted[]=new int[100];
-		int arr[]=new int[]{1,2,3,4,5,6,7};
-		int k=10;
-		ObjStringProblems.subsetSum(arr, 0,arr.length, new ArrayList<Integer>()/*arraytobeprinted*/, 0, 0, k);
+//		int arraytobeprinted[]=new int[100];
+//		int arr[]=new int[]{1,2,3,4,5,6,7};
+//		int k=10;
+//		ObjStringProblems.subsetSum(arr, 0,arr.length, new ArrayList<Integer>()/*arraytobeprinted*/, 0, 0, k);
 
+
+	}
+
+	public static void main(String args[]){
+		callmethod("harsh");
+
+	}
+	public  static void callmethod(String name){
+
+		String name1="harsh";
+		String name2="har";
+		if(name==name1)
+		{
+			System.out.println("Equal strings");
+
+		}
+		if(name1.substring(0,3)==name2)
+		{
+			System.out.println("Equal strings");
+		}
+		else
+		{
+			System.out.println(name1.substring(0,3));
+		}
+
+		if(name1.substring(0,3)==name1.substring(0,3))
+		{
+			System.out.println("Equal strings");
+		}
+		else
+		{
+			System.out.println(name1.substring(0,3));
+		}
 	}
 
 }

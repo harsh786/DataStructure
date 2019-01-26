@@ -289,7 +289,7 @@ class TreeQuestions {
 	 * rightmost node in current's left subtree b) Go to this left child, i.e.,
 	 * current = current->left
 	 */
-	
+
 	public void InordertraversalWithoutRecursionAndStack(TreeNode current) {
 		if (current == null) {
 			return;

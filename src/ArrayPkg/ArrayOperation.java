@@ -254,33 +254,28 @@ class ArrayQuest {
         }
 
         System.out.println("Print rearrange");
-        for(int k=0;k<a.length;k++)
-        {
-            System.out.print(a[k] +" ");
+        for (int k = 0; k < a.length; k++) {
+            System.out.print(a[k] + " ");
         }
 
 
-        }
     }
+}
 
 
+public class ArrayOperation {
+    public ArrayOperation() {
+        ArrayQuest ObjArrayQuest = new ArrayQuest();
+        //ObjArrayQuest.FindUniqueNumbersFromInfiniteSeries();
+        //ArrayQuest.FindMedian();
+        //ArrayQuest.ImplementLRUCache(new int[] { 1, 2, 3, 1, 4, 5 }, 4);
+
+        ObjArrayQuest.MinContinousSumArrayAtMostKSwap(new int[]{-32022, 20379, -30669, 22887, -14775, 3680, -24775, 9441, -24917, 8608, -4092, 18081}, 1);
+        // Arrays.sort
+        //  Scanner in = new Scanner(System.in);
 
 
-
-
-    public class ArrayOperation {
-        public ArrayOperation() {
-            ArrayQuest ObjArrayQuest = new ArrayQuest();
-            //ObjArrayQuest.FindUniqueNumbersFromInfiniteSeries();
-            //ArrayQuest.FindMedian();
-            //ArrayQuest.ImplementLRUCache(new int[] { 1, 2, 3, 1, 4, 5 }, 4);
-
-            ObjArrayQuest.MinContinousSumArrayAtMostKSwap(new int[]{-32022, 20379, -30669, 22887, -14775, 3680, -24775, 9441, -24917, 8608, -4092, 18081}, 1);
-            // Arrays.sort
-            //  Scanner in = new Scanner(System.in);
-
-
-            //  in.
-            ObjArrayQuest.rearrangeNEgativePostiveNumbers();
-        }
+        //  in.
+        ObjArrayQuest.rearrangeNEgativePostiveNumbers();
     }
+}

@@ -245,6 +245,7 @@ class JavaCollectionsSet {
         HashSetObj.remove(new Integer(10));
 
 
+
     }
 
     public void SetInterfaceLinkedHashSet() {
